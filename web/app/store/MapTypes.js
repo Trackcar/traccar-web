@@ -23,6 +23,9 @@ Ext.define('Traccar.store.MapTypes', {
         key: 'carto',
         name: Strings.mapCarto
     }, {
+        key: 'google',
+        name: Strings.mapGoogle
+    }, {
         key: 'osm',
         name: Strings.mapOsm
     }, {

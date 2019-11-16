@@ -142,6 +142,13 @@ Ext.define('Traccar.view.map.BaseMap', {
                     source: new ol.source.OSM({})
                 });
                 break;
+            case 'google':
+                layer = new ol.layer.Tile({
+                  source: new ol.source.XYZ({
+                    url: 'https://mt0.google.com/vt/lyrs=m&hl=en&x={x}&y={y}&z={z}&s=Ga'
+                  })
+                });
+                break;
             default:
                 layer = new ol.layer.Tile({
                     source: new ol.source.OSM({

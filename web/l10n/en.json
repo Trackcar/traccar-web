@@ -236,6 +236,7 @@
     "mapCustomLabel": "Custom map",
     "mapCarto": "Carto Basemaps",
     "mapOsm": "Open Street Map",
+    "mapGoogle": "Google Map",
     "mapBingKey": "Bing Maps Key",
     "mapBingRoad": "Bing Maps Road",
     "mapBingAerial": "Bing Maps Aerial",
